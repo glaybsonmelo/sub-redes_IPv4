@@ -15,7 +15,6 @@ def main():
         mascara = None
     else:
         print('Opção invalida!')
-
     calc_ipv4_1 = CalcIPv4(ip, mascara, prefixo)
 
     print(f'IP: {calc_ipv4_1.ip}')
